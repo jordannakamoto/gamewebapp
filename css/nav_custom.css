@@ -1,0 +1,30 @@
+.navbar {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.nav__icon {
+	height: 40px;
+	margin: 1em;
+	animation-play-state: paused;
+}
+.navbar-brand {
+	margin-bottom: 1em;
+}
+
+.navbar .container {
+	position: relative;
+	height: 200px;
+}
+
+.navbar-nav li{
+	text-align: center;
+	background: white;
+	z-index: 2;
+}
+
+.navbar-nav a:hover{
+	transform: translateY(-5px);
+	border-color: rgba(0,0,0, 0) !important; /* need to edit bootstrap css one day*/
+	transition: transform .2s ease;
+}

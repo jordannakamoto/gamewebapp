@@ -1,0 +1,76 @@
+/* recent custom */
+body {
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	background-size: cover;
+}
+
+.recent__area {
+}
+
+.recent__left {
+	position: absolute;
+	color: #e2e2e2;;
+	height: 300px;
+	border-radius: 0px 15px 15px 0px;
+	border: solid 1px #e2e2e2; 
+	margin-top: 2em;
+	padding-left: 2vw;
+	padding-top: 1em;
+	padding-right: 2vw;
+	transition: all .1s;
+}
+
+.recent__left:hover {
+	color: grey;
+	border-color: grey;
+}
+
+.recent__updates {
+	color: #87766C;;
+	height: 300px;
+	margin-left: 14vw;
+	padding-top: 1em;
+}
+
+
+/* CARD CAROUSEL MODULE */
+
+.card__carousel {
+	display: flex;
+}
+
+.updates__card {
+	color: grey;
+	height: auto;
+	max-width: 370px;
+	padding: 40px;
+	margin-right: 2%;
+	overflow-y: auto;
+	height: 270px;
+	background: white;
+	box-shadow: 0 5px 10px rgba(0,0,0, .1);
+}
+
+	.updates__card h1 {
+		font-size: 20px;
+	}
+
+/* probably wanna figure out how to use less eventually */
+@media screen and (max-width: 750px) { 	
+	.card__carousel {
+		flex-direction: column;
+	}
+
+	.updates__card {
+		margin-top: 2em;
+	}
+
+	.recent__left {
+		position: relative;
+		height: auto;
+		border: none;
+	}
+
+
+
+}

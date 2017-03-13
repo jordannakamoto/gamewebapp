@@ -1,0 +1,7 @@
+.label__entity {
+	font-family: "Inconsolata", sans-serif;
+}
+
+.label__entity.creature { color: blue; }
+
+.label__entity.item { color: red; }

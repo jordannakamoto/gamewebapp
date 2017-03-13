@@ -1,0 +1,52 @@
+/*  WALLPAPER  */
+
+.searchy .wallpaper {
+	background: url("../assets/images/wallpaper.jpg");
+	background-position: bottom;
+	opacity: .8;
+	height: 280px;
+	width: 100%;
+}
+
+.search__area {
+	align-self: center;
+	min-width: 100px;
+	position: relative;
+	left:25vw;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	padding: 20px;
+	padding-left: 100px;
+	background: none;
+	font-size: 46px;
+	width: 40%;
+	color: white;
+	border: none;
+	transition: background .4s ease;
+}
+
+.search__area:focus {
+	background: rgba(0,0,0, .5);
+}
+
+.download__json {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 2.5vw;
+	right: 4vw;
+	z-index: 3;
+	font-family: "Ranga", sans-serif;
+	font-size: 28px;
+	background: transparent;
+	border-radius: 50%;
+	transition: all .4s ease;
+}
+.download__json:hover {
+	background: rgba(255,255,255, .1);
+	transform: translateX(-10px);
+}
+
+.download__json a{ color: white;}
+.download__json a:hover{ text-decoration: none;}

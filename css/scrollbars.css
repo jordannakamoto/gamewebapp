@@ -1,0 +1,19 @@
+/* SCROLL BARS */
+/* Let's get this party started */
+
+.scrollbar_lite::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+.scrollbar_lite::-webkit-scrollbar-track {
+	background: #bababa;
+    border: 5px solid transparent;
+	background-clip: content-box; 
+}
+ 
+/* Handle */
+.scrollbar_lite::-webkit-scrollbar-thumb {
+    background: white;
+    height: 10px;
+}
